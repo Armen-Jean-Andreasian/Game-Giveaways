@@ -1,0 +1,20 @@
+if you get the error:
+
+"selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only
+supports Chrome version X Current browser version is Y with binary path..."
+
+
+1) open the file: backend/scripts/parser/scripts/url_scrapper/errors/error_resolvers/selenium_webdriver_issue/downloader_script/download_driver.py
+    and run the script manually
+
+2) type Y and follow the instructions of Webdriver Download Helper
+
+3) download the driver manually and place
+open the path and move the chromedriver.exe to
+    backend/scripts/parser/scripts/url_scrapper/webdriver
+
+
+ATTENTION: If you downloaded not Google Chrome Driver
+1. Go to backend/scripts/parser/config/constants.py
+2. Find the class WebDriverConstants"
+3. Change the value of driver_name variable to one you downloaded

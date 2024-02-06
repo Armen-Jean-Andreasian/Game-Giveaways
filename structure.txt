@@ -1,0 +1,123 @@
+.github
+    ISSUE_TEMPLATE
+        bug_report.md
+        feature_request.md
+    screenshots
+        home.png
+        SwaggerUI.png
+        UI_sample.png
+api
+    api_scripts
+        data_retriever
+            __init__.py
+            get_giveaways.py
+    models
+        documentation_models
+            __init__.py
+            models.py
+    settings
+        middlewares
+            request_limiter_custom_middleware
+                __init__.py
+                archive.py
+                middleware.py
+            __init__.py
+    views
+        response_samples
+            __init__.py
+            samples.py
+        __init__.py
+        api_info.py
+        giveaways_all.py
+        giveaways_queried.py
+        home.py
+        sample_data.py
+business_logic
+    parser
+        data
+            scrapped_data
+                epic_games_scrapped_data
+                    .keep
+                steam_scrapped_data
+                    .keep
+        scripts
+            file_manager
+                __init__.py
+                file_manager.py
+            url_scrapper
+                errors
+                    error_resolvers
+                        selenium_webdriver_issue
+                            downloader_script
+                                __init__.py
+                                download_driver.py
+                            __init__.py
+                            driver_error_fix.txt
+                            webdriver_error_resolver.py
+                        user_input_reader.py
+                    __init__.py
+                    custom_errors.py
+                    error_handler.py
+                scrapper
+                    __init__.py
+                    scrapper.py
+                webdriver
+                    __init__.py
+                    chromedriver.exe
+                    this_should_be_chromedriver.exe
+                    webdriver_base.py
+                __init__.py
+            __init__.py
+    store_models
+        core
+            base
+                scripts
+                    __init__.py
+                    store_data_extractor.py
+                    store_scrapper.py
+                __init__.py
+                store_base.py
+            __init__.py
+            store_interface.py
+        stores
+            epic_games
+                __init__.py
+                epic_games.py
+            steam
+                __init__.py
+                steam.py
+        __init__.py
+        giveaways.py
+    __init__.py
+config
+    __init__.py
+    constants.py
+database
+    __init__.py
+    cache.pickle
+    cache.py
+tests
+    api_tests
+        api_endpoint_tests
+            endpoints
+                __init__.py
+                endpoints.py
+                test_endpoints.py
+    backend_tests
+        request_limiter_test.py
+    scrap_it_tests
+        eg.py
+    business_logic_tests
+        parsing_results_tests
+            results_tests.py
+.gitignore
+documentation.rst
+LICENSE.txt
+LICENSE_ru.txt
+LICENSE_zh.txt
+main.py
+README.md
+requirements.txt
+structure.txt
+terms_of_service.md
+ui_demo.py

@@ -1,0 +1,1 @@
+from .logic_interface import WebsiteParserInterface

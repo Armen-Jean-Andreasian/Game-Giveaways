@@ -1,0 +1,41 @@
+Software License Agreement
+
+1. You are not allowed to use this software in any commercial or non-commercial projects without prior written permission.
+
+2. The software cannot be used if:
+    a. The project is part of a closed and proprietary project (not open source).
+    b. The project belongs to or will be used by a non-profit organization.
+        b.1 The project is allowed to be used only by non-profit organizations that focus on animal rights.
+        b.2 The project is prohibited for use by any types of:
+            b.2.1 Media
+            b.2.2 Political movements
+            b.2.3 Organizations involved in any form of activism, except for animal rights protection
+            b.2.4 Religious organizations
+    c. If the company's registration differs from the physical address of its main office.
+
+3. The software cannot be used in the following countries:
+    d.1 Turkey
+    d.2 Albania
+    d.3 Azerbaijan
+    d.4 Kazakhstan
+    d.5 Pakistan
+    d.6 Turkmenistan
+    d.7 Uzbekistan
+    d.8 South Africa
+
+4. Code usage is allowed in the following cases:
+    a. Personal projects.
+    b. Open source projects (without the possibility of paid subscriptions, license sales, or paid features), if point 2.c of this document is adhered to, with attribution.
+    c. Student projects with attribution.
+        c.1 If a student project eventually evolves into commercial software or acquires any paid features, the code of this project must be completely removed, and permission to restore it must be obtained from the author.
+
+5. If the project was an open project and subsequently became commercial, the code of this project must be completely removed, and permission to restore it must be obtained from the author.
+
+6. Other uses of the code are possible only after obtaining written permission from the author.
+
+7. Modifying the project's code is prohibited.
+
+THE SOFTWARE IS PROVIDED "AS IS," AND THE AUTHOR DISCLAIMS ALL WARRANTIES, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHOR IS NOT LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Armen-Jean Andreasian
+January 7, 2024

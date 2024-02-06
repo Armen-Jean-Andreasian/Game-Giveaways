@@ -1,0 +1,4 @@
+.idea
+/venv
+/configs/tools/webdriver/chrome-win64/
+/configs/tools/webdriver/chromedriver-win64/

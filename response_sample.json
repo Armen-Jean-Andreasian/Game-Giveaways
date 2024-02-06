@@ -1,0 +1,19 @@
+{
+  "response": {
+    "steam_giveaways": [
+      {
+        "title": "Ready or Not",
+        "image_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144200/header.jpg",
+        "game_url": "https://store.steampowered.com/app/1144200/"
+      }
+    ],
+
+    "epic_games_giveaways": [
+      {
+        "title": "Marvel’s Guardians of the Galaxy",
+        "image_url": "https://cdn1.epicgames.com/offer/2a09fb19b47f46dfb11ebd382f132a8f/EGS_MarvelsGuardiansoftheGalaxy_EidosMontral_S1_01_2560x1440-41457c6140198776b348b1c77e730e48",
+        "game_url": "https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy"
+      }
+    ]
+  }
+}
