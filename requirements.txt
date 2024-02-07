@@ -6,3 +6,4 @@ streamlit>=1.27.2
 bs4>=0.0.1
 beautifulsoup4>=4.12.2
 the_directory_scanner>=1.0
+input_armor>=1.0

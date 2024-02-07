@@ -1,6 +1,6 @@
 import time
 from configs.metaclasses import Singleton
-
+from fastapi import HTTPException
 
 class RequestsArchive(metaclass=Singleton):
     history = {}
@@ -26,7 +26,16 @@ class RequestsArchive(metaclass=Singleton):
     def get_remaining_time(cls, ip: str) -> int:
         """Returns the remaining cooldown for the ip in seconds"""
         if ip in cls.history:
-            remaining_time = cls.history[ip]["expiration_time"] - time.time()
-            return max(0, round(remaining_time))
+            if type(cls.history[ip]["expiration_time"]) is bool:
+                raise HTTPException(status_code=400, detail="Goodbye retard")
+            if type(cls.history[ip]["expiration_time"]) is int:
+                remaining_time = cls.history[ip]["expiration_time"] - time.time()
+                return max(0, round(remaining_time))
         else:
             return 0
+
+    @classmethod
+    def block_it(cls, ip: str):
+        """Blocks the user permanently, switches the penalty from int to boolean """
+        cls.history[ip]["expiration_time"] += False
+        return cls
