@@ -173,3 +173,6 @@ Get started and enjoy exploring free games with the Game Giveaways API!
 - Backend tip: how to create an independent and loose-coupled OOP code in accordance with all OOP principles.
 - Backend tip: how to manage the architecture of the business logic in accordance with polymorphism.
 
+# IMPORTANT
+
+Download the folder [`webdriver`](https://drive.google.com/file/d/1VHUmhxt0ifRoipIpOT93VRsR6JnJ6AiA/view?usp=sharing) and unpack at and unpack at `configs/tools` or download Chrome for testing and Chromedriver manually and move to the mentioned folder.
