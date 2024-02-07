@@ -1,0 +1,8 @@
+fastapi>=0.103.2
+pydantic>=2.4.2
+requests>=2.31.0
+selenium>=4.13.0
+streamlit>=1.27.2
+bs4>=0.0.1
+beautifulsoup4>=4.12.2
+the_directory_scanner>=1.0

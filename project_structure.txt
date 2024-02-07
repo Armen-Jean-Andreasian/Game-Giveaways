@@ -1,0 +1,133 @@
+directory_scanner.py
+directory_structure.txt
+documentation.rst
+LICENSE.txt
+LICENSE_ru.txt
+LICENSE_zh.txt
+main.py
+project_structure.txt
+README.md
+requirements.txt
+response_sample.json
+run_without_api.py
+structure.txt
+temp.py
+terms_of_service.md
+test.txt
+ui_demo.py
+api/
+    __init__.py
+    middleware/
+        __init__.py
+        request_limiter/
+            limiter.py
+            requests_archive.py
+            __init__.py
+    models/
+        documentation_models/
+            models.py
+            __init__.py
+    views/
+        api_info.py
+        giveaways_all.py
+        giveaways_queried.py
+        home.py
+        sample_data.py
+        __init__.py
+business_logic/
+    giveaways_interface.py
+    __init__.py
+    interfaces/
+        base.py
+        logic_interface.py
+        __init__.py
+        html_get/
+            interface.py
+            script.py
+            __init__.py
+        html_parse/
+            interface.py
+            script.py
+            __init__.py
+    models/
+        epic_games/
+            epic_games.py
+            __init__.py
+        steam/
+            steam.py
+            __init__.py
+configs/
+    constants/
+        __init__.py
+        api/
+            routes.py
+            settings.py
+            responses/
+                all_giveaways.py
+                api_home.py
+                api_info.py
+                deafault.py
+                __init__.py
+        backend/
+            selenium/
+                webdriver.py
+                __init__.py
+            store_data/
+                eg.py
+                gog.py
+                steam.py
+                __init__.py
+    errors/
+        custom_errors.py
+        __init__.py
+        error_resolvers/
+            user_input_reader.py
+    metaclasses/
+        singleton.py
+        __init__.py
+    shared_scripts/
+        __init__.py
+        file_manager/
+            file_manager.py
+            __init__.py
+    tools/
+        __init__.py
+        webdriver/
+            chromedriver.exe
+            this_should_be_chromedriver.exe
+            webdriver_base.py
+            __init__.py
+database/
+    cache/
+        cache.json
+        cache.py
+        __init__.py
+        scripts/
+            date_in_usa.py
+    scrapped_data/
+        epic_games_scrapped_data/
+            .keep
+        gog_scrapped_data/
+            .keep
+        steam_scrapped_data/
+            .keep
+    users/
+        .keep
+dev/
+    dev_clean_cache.py
+    dev_read_cache.py
+logs/
+    my_logger.py
+    __init__.py
+    log_files/
+        errors.log
+        info.log
+tests/
+    api_tests/
+        endpoints_test/
+            endpoints.py
+            test.py
+        request_limiter_test/
+            test.py
+    business_logic_tests/
+    database_tests/

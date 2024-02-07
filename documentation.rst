@@ -31,7 +31,7 @@ The key in the returned dictionary for all endpoints is named 'response'.
 Cache
 ========
 
-Contains the scraped data in binary format. The cache is generated once a day, synchronized with USA time.
+Contains the scraped data. The cache is generated once a day, synchronized with USA time.
 The API script first checks the data in cache if it's up-to-date, if it is - retrieves it, if not - triggers the parser.
 
 API

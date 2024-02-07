@@ -104,7 +104,7 @@ updates a local dictionary within it, and then returns the result in accordance 
 
 ## Cache
 
-Contains the scraped data in binary format. The cache is generated once a day, synchronized with USA time.
+The cache is generated once a day, synchronized with USA time.
 The API script first checks the data in cache if it's up-to-date, if it is - retrieves it, if not - triggers the parser. 
 
 
@@ -155,3 +155,21 @@ The config package contains variables subject to change over time, enhancing the
 Technologies used for this project include FastAPI, Selenium, BeautifulSoup4, and more.
 
 Get started and enjoy exploring free games with the Game Giveaways API!
+
+---
+
+## Cool Features and tips that you will discover
+
+- Selenium tip: how to get rid of "Browser is being controlled by automated test software"
+- Selenium tip: how to run the browser in maximized window?  
+- Selenium tip: how to use manageable Chrome for testing instead of Google Chrome?
+- Scraping tip: how to bypass Cloudflare.
+- Scraping tip: how to not trigger Google anti-bot check.
+- Scraping tip: how to detect and analyze the HTML code using Selenium itself.
+- Logging tip: how to set the logging pipeline.
+- Security tip: how to protect the API from DDOS attacks.
+- Security tip: how to protect the API from SQL-injections.
+- API: how to develop a modern API in accordance with REST principles.
+- Backend tip: how to create an independent and loose-coupled OOP code in accordance with all OOP principles.
+- Backend tip: how to manage the architecture of the business logic in accordance with polymorphism.
+
